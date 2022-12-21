@@ -1,0 +1,68 @@
+{
+  "components": [
+    {
+      "label": "Employment Type",
+      "type": "textfield",
+      "id": "Field_1bjjc1l",
+      "key": "employmenttype",
+      "disabled": true
+    },
+    {
+      "label": "Company Name",
+      "type": "textfield",
+      "id": "Field_16l8nz4",
+      "key": "companyname"
+    },
+    {
+      "values": [
+        {
+          "label": "Medical",
+          "value": "Medical"
+        },
+        {
+          "label": "Software",
+          "value": "Software"
+        },
+        {
+          "label": "Telecom",
+          "value": "Telecom"
+        },
+        {
+          "label": "Service",
+          "value": "Service"
+        }
+      ],
+      "label": "Industry Type",
+      "type": "select",
+      "id": "Field_1h2fuso",
+      "key": "indutrytype"
+    },
+    {
+      "label": "Monthly Income",
+      "type": "number",
+      "id": "Field_1pzec60",
+      "key": "monthlyinome"
+    },
+    {
+      "label": "Current EMI",
+      "type": "number",
+      "id": "Field_16ntu5w",
+      "key": "crrentemi"
+    },
+    {
+      "label": "Official Mail ID",
+      "type": "textfield",
+      "id": "Field_1ijituo",
+      "key": "mailid"
+    }
+  ],
+  "type": "default",
+  "id": "EmploymentDetails",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

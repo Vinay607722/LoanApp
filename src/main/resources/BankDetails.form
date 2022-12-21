@@ -1,0 +1,32 @@
+{
+  "components": [
+    {
+      "label": "Account Holders Name",
+      "type": "textfield",
+      "id": "Field_17ea13k",
+      "key": "name",
+      "disabled": true
+    },
+    {
+      "label": "Account Number",
+      "type": "textfield",
+      "id": "Field_0y0qh5a",
+      "key": "accountnumber"
+    },
+    {
+      "label": "IFSC Code",
+      "type": "textfield",
+      "id": "Field_0kw86n3",
+      "key": "ifsccode"
+    }
+  ],
+  "type": "default",
+  "id": "BankDetails",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

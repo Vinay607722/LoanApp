@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "label": "Name",
+      "type": "textfield",
+      "id": "Field_06mhuqp",
+      "key": "name"
+    },
+    {
+      "label": "Mobile Number",
+      "type": "textfield",
+      "id": "Field_0oa8jvy",
+      "key": "mobilenumber"
+    },
+    {
+      "label": "Email Address",
+      "type": "textfield",
+      "id": "Field_0a0ybe1",
+      "key": "emailaddress"
+    },
+    {
+      "label": "Age",
+      "type": "number",
+      "id": "Field_0j4pjqq",
+      "key": "age"
+    },
+    {
+      "values": [
+        {
+          "label": "Female",
+          "value": "Female"
+        },
+        {
+          "label": "Male",
+          "value": "Male"
+        }
+      ],
+      "label": "Gender",
+      "type": "select",
+      "id": "Field_0ayfj73",
+      "key": "gender"
+    },
+    {
+      "values": [
+        {
+          "label": "Salaried",
+          "value": "Salaried"
+        },
+        {
+          "label": "Self-Employment",
+          "value": "Self-Employment"
+        }
+      ],
+      "label": "Employment Type",
+      "type": "select",
+      "id": "Field_0uewk2a",
+      "key": "employmenttype"
+    }
+  ],
+  "type": "default",
+  "id": "PersonalDetails",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

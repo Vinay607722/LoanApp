@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "label": "College Name",
+      "type": "textfield",
+      "id": "Field_1rjuaya",
+      "key": "collegename"
+    },
+    {
+      "label": "Percentage",
+      "type": "number",
+      "id": "Field_0a4nj18",
+      "key": "percentage"
+    },
+    {
+      "label": "Year Of Graduation",
+      "type": "number",
+      "id": "Field_0zqfu3c",
+      "key": "yearofgraduation"
+    },
+    {
+      "values": [
+        {
+          "label": "B.Tech",
+          "value": "B.Tech"
+        },
+        {
+          "label": "Degree",
+          "value": "Degree"
+        }
+      ],
+      "label": "Course Name",
+      "type": "taglist",
+      "id": "Field_1aqvb6c",
+      "key": "coursename"
+    }
+  ],
+  "type": "default",
+  "id": "EducationalDetails",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Vehicle Loan",
+          "value": "VehicleLoan"
+        },
+        {
+          "label": "Personal Loan",
+          "value": "PersonalLoan"
+        },
+        {
+          "label": "Home Loan",
+          "value": "HomeLoan"
+        },
+        {
+          "label": "Educational Loan",
+          "value": "EducationalLoan"
+        }
+      ],
+      "label": "Loan Type",
+      "type": "radio",
+      "id": "Field_0iws56x",
+      "key": "loantype"
+    },
+    {
+      "action": "submit",
+      "label": "APPLY NOW",
+      "type": "button",
+      "id": "Field_1hi78yv",
+      "key": "field_18kme0i"
+    }
+  ],
+  "type": "default",
+  "id": "Loantype",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

@@ -1,0 +1,25 @@
+{
+  "components": [
+    {
+      "label": "Name",
+      "type": "textfield",
+      "id": "Field_022jkjn",
+      "key": "referalname"
+    },
+    {
+      "label": "Contact Number",
+      "type": "textfield",
+      "id": "Field_19bz23n",
+      "key": "contactnumber"
+    }
+  ],
+  "type": "default",
+  "id": "reference",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

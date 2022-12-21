@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "label": "Loan Amount",
+      "type": "number",
+      "id": "Field_1h9ann7",
+      "key": "loanamount"
+    },
+    {
+      "values": [
+        {
+          "label": "1-Year",
+          "value": "1-Year"
+        },
+        {
+          "label": "2-Years",
+          "value": "2-Years"
+        },
+        {
+          "label": "3-Years",
+          "value": "3-Years"
+        },
+        {
+          "label": "4-Years",
+          "value": "4-Years"
+        },
+        {
+          "label": "5-Years",
+          "value": "5-Years"
+        }
+      ],
+      "label": "Tenure",
+      "type": "select",
+      "id": "Field_0uj7jbq",
+      "key": "tenure"
+    },
+    {
+      "label": "Interest Rate",
+      "type": "textfield",
+      "id": "Field_1p5kij3",
+      "key": "interestrate"
+    },
+    {
+      "label": "Tax",
+      "type": "number",
+      "id": "Field_0lemreg",
+      "key": "tax"
+    }
+  ],
+  "type": "default",
+  "id": "ProvideDetails",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

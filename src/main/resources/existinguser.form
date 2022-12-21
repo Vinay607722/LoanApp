@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "label": "Customer ID",
+      "type": "textfield",
+      "id": "Field_1yj89ed",
+      "key": "m"
+    },
+    {
+      "label": "Name",
+      "type": "textfield",
+      "id": "Field_0z03lkj",
+      "key": "name"
+    },
+    {
+      "label": "Age",
+      "type": "number",
+      "id": "Field_0kb9zib",
+      "key": "age"
+    },
+    {
+      "label": "Gender",
+      "type": "textfield",
+      "id": "Field_0kul60j",
+      "key": "gender"
+    },
+    {
+      "label": "Mobile Number",
+      "type": "textfield",
+      "id": "Field_1uicy0d",
+      "key": "mobilenumber"
+    },
+    {
+      "label": "Email Address",
+      "type": "textfield",
+      "id": "Field_1291i3r",
+      "key": "email"
+    },
+    {
+      "label": "Cibil Score",
+      "type": "textfield",
+      "id": "Field_0gys01i",
+      "key": "s"
+    },
+    {
+      "values": [
+        {
+          "label": "Salaried",
+          "value": "Salaried"
+        },
+        {
+          "label": "Self-Employment",
+          "value": "Self-Employment"
+        }
+      ],
+      "label": "Employment Type",
+      "type": "select",
+      "id": "Field_05ii803",
+      "key": "employmenttype"
+    }
+  ],
+  "type": "default",
+  "id": "existinguser",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

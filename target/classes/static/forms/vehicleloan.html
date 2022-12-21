@@ -1,0 +1,101 @@
+<form name="taskForm" class="form-horizontal" role="form">
+
+  <!-- read-only field -->
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">Name</label>
+    <div class="col-sm-10">
+      <input type="text"
+             name="name"
+             cam-variable-name="name"
+             readonly="true"
+             class="form-control" /> 
+    </div>
+  </div>
+  
+  <!-- read-only field -->
+  <div class="form-group">
+    <label for="email" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="text"
+             name="email"
+             cam-variable-name="email"
+             readonly="true"
+             class="form-control" /> 
+    </div>
+  </div>  
+  
+  <!-- read-only field -->
+  <div class="form-group">
+    <label for="email" class="col-sm-2 control-label">EMI</label>
+    <div class="col-sm-10">
+      <input type="number"
+             name="emi"
+             cam-variable-name="emi"
+             readonly="true"
+             class="form-control" /> 
+    </div>
+  </div>
+    
+  <div class="control-group">
+    <label class="control-label" for="Aadhar Card">Aadhar Card</label>
+    <div class="controls">
+      <input type="file"
+     
+             id="aadharcard"
+             cam-variable-name="AADHAR_CARD"
+             cam-variable-type="File" />
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Pan Card">Pan Card</label>
+    <div class="controls">
+      <input type="file"
+     
+             id="pancard"
+             cam-variable-name="PAN_CARD"
+             cam-variable-type="File" />
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Passport Photo">Passport Photo</label>
+    <div class="controls">
+      <input type="file"
+     
+             id="passportphoto"
+             cam-variable-name="PASSPORT_PHOTO"
+             cam-variable-type="File" />
+    </div>
+  </div>
+
+<div class="control-group">
+    <label class="control-label" for="Property Documents">Driving License</label>
+    <div class="controls">
+      <input type="file"
+     
+             id="drivinglicense"
+             cam-variable-name="DRIVING_LICENSE"
+             cam-variable-type="File" />
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Proof Of Income">Proof Of Income</label>
+    <div class="controls">
+      <input type="file"
+     
+             id="proofofincome"
+             cam-variable-name="PROOFOF_INCOME"
+             cam-variable-type="File" />
+    </div>
+  </div>
+
+
+
+  
+
+  <script cam-script type="text/form-script">
+  // custom JavaScript goes here
+  </script>
+</form>

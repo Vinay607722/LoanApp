@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "label": "Name",
+      "type": "textfield",
+      "id": "Field_1erp5af",
+      "key": "name"
+    },
+    {
+      "label": "Age",
+      "type": "number",
+      "id": "Field_1c6re67",
+      "key": "age"
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_1uwvpd7",
+      "key": "email"
+    },
+    {
+      "label": "Mobile Number",
+      "type": "textfield",
+      "id": "Field_1dkchu8",
+      "key": "mobilenumber"
+    },
+    {
+      "values": [
+        {
+          "label": "Male",
+          "value": "Male"
+        },
+        {
+          "label": "Female",
+          "value": "female"
+        }
+      ],
+      "label": "Gender",
+      "type": "select",
+      "id": "Field_0qkj327",
+      "key": "gender"
+    },
+    {
+      "label": "Password",
+      "type": "textfield",
+      "id": "Field_17lotso",
+      "key": "password"
+    }
+  ],
+  "type": "default",
+  "id": "newuser",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

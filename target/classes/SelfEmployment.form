@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "label": "Employment Type",
+      "type": "textfield",
+      "id": "Field_0lgox16",
+      "key": "employmenttype",
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "Manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "label": "Doctor",
+          "value": "Doctor"
+        },
+        {
+          "label": "ServiceProvider",
+          "value": "ServiceProvider"
+        },
+        {
+          "label": "Trading",
+          "value": "Trading"
+        },
+        {
+          "label": "Architect",
+          "value": "Architect"
+        }
+      ],
+      "label": "Type Of Industry",
+      "type": "select",
+      "id": "Field_1nkced0",
+      "key": "typeofbusiness"
+    },
+    {
+      "label": "Enterprise Name",
+      "type": "textfield",
+      "id": "Field_0dk61qk",
+      "key": "enterprisename"
+    },
+    {
+      "label": "Monthly Income",
+      "type": "number",
+      "id": "Field_0mlo2pe",
+      "key": "annualincome"
+    },
+    {
+      "label": "Number Of Years In Business",
+      "type": "number",
+      "id": "Field_1xsl868",
+      "key": "noofyears"
+    },
+    {
+      "label": "Work Email",
+      "type": "textfield",
+      "id": "Field_08m2t9v",
+      "key": "workemail"
+    },
+    {
+      "label": "Address",
+      "type": "textfield",
+      "id": "Field_0ar67e2",
+      "key": "address"
+    }
+  ],
+  "type": "default",
+  "id": "SelfEmployment",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.4.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}
